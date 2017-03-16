@@ -1,0 +1,139 @@
+/* ------LAYOUT------ */
+body{
+  background-color:grey;
+  margin:0px;
+  font-family:verdana,serif;
+  font-size:14px;
+}
+/* -----HEADING------ */
+#header {
+  background-color:#5c755e;
+  margin:10px;
+  height:90px;
+  border-radius:5px;
+
+}
+h3{
+  color:#e5e4d7;
+  font-size:250%;
+  text-align:center;
+font-family:"century Gothic","Gill Sans";
+margin:0px;
+position:relative;
+top:50%;
+-webkit-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50);
+}
+/* ------NAVIGATION------ */
+#navigation {
+  background-color:black;
+  margin:10px;
+  height:35px;
+  border-radius:5px;
+}
+#navigation ul{
+  list-style-type: none;
+  text-align:center;
+  padding:5px;
+  margin:5px;
+  border-radius:5px;
+}
+
+#navigation ul li{
+display:inline;
+}
+#navigation ul li a{
+  text-decoration:none;
+  font-family:verdana;
+  font-size:15px;
+  color:white;
+  padding:4px;
+  background-color:black;
+}
+#navigation ul li a:hover{
+  position:relative;
+  padding-top:6px;
+padding-bottom:12px;
+  background-color:white;
+  color:black;
+
+
+}
+
+/* ------MAIN------ */
+  .main {
+    background-color:#e5e4d7;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:410px;
+    border-radius:5px;
+    padding:20px;
+    font-size:110%
+    }
+h1{
+  font-size:120%;
+  color:red;
+}
+/* ------SIDEBAR------ */
+.sideright{
+  background-color:#e5e4d7;
+  margin-top:0px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:5px;
+  padding:20px;
+  font-size:105%;
+  width:350px;
+  float:right;
+  clear:right;
+}
+h2{
+  color:blue;
+  font-size:110%
+}
+.imagesidebar{
+
+  margin-top:0px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:5px;
+
+  width:390px;
+  height:400px;
+  float:right;
+  clear:right;
+  opacity:1.0;
+  transition: opacity 1s ease-in-out;
+}
+.imagesidebar:hover{
+  opacity:0.4;
+}
+/* ------FOOTER------ */
+#footer {
+  background-color:#5c755e;
+  margin:10px;
+  height:45px;
+  border-radius:5px;
+  color:white;
+  text-align:center;
+  padding:5px;
+  font-size:90%;
+
+  font-family:verdana;
+
+}
+#footer ul{
+    list-style-type:none;
+
+}
+#footer ul li{
+  display:inline;
+  padding:3px;
+}
+#footer ul li a{
+  text-decoration:none;
+}
